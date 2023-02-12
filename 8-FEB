@@ -1,0 +1,29 @@
+Q1. What is Abstraction in OOps? Explain with an example.
+ANS. Your car is a great example of abstraction. 
+You can start a car by turning the key or pressing the start button. 
+You don't need to know how the engine is getting started, what all components your car has.
+The car internal implementation and complex logic is completely hidden from the user.
+
+Q2. Differentiate between Abstraction and Encapsulation. Explain with an example.
+ANS. ABSTRACTION- Abstraction is a design level process and it is used to reduce the complexity at the designing stage of a project.
+
+ENCAPSULATION-Encapsulation is an implementation level process, and it is used to provide privacy and maintain control over the transparency of
+     data at the implementation stage of a project.
+
+
+Q3. What is abc module in python? Why is it used?
+ANS.This module provides the infrastructure for defining abstract base classes (ABCs) in Python, as outlined in PEP 3119; see the PEP for why this was added to Python. 
+(See also PEP 3141 and the numbers module regarding a type hierarchy for numbers based on ABCs.)
+
+
+Q4. How can we achieve data abstraction?
+ANS. Data abstraction is a method where essential elements are displayed to the user and trivial elements are kept hidden.
+In Java, abstraction is achieved by using the abstract keyword for classes and interfaces.
+In abstract classes, we can have abstract methods as well as concrete methods.
+
+
+
+Q5. Can we create an instance of an abstract class? Explain your answer.
+ANS. Abstract classes cannot be instantiated, but they can be subclassed.
+When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class.
+However, if it does not, then the subclass must also be declared abstract .
